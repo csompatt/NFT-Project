@@ -1,0 +1,35 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-wrapper {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.line {
+  width: 100%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
