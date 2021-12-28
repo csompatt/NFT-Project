@@ -13,12 +13,98 @@ html {
   color: hsl(215, 51%, 70%);
 }
 
+body,
+.price-days-wrapper,
+.creator-wrapper,
+.price,
+.days {
+  display: flex;
+  align-items: center;
+}
+
 body {
   background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card-wrapper,
+.nft-picture {
+  border-radius: 0.5rem;
 }
 
 .card-wrapper {
+  width: 80%;
   background-color: hsl(216, 50%, 16%);
+  padding: 1.333rem;
+}
+
+.nft-picture {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.overlay {
+  display: none;
+}
+.card-wrapper h1,
+.price-days-wrapper {
+  margin: 1rem 0;
+}
+
+.card-wrapper h1 {
+  font-size: 1.222rem;
+  display: inline-block;
+}
+
+.card-wrapper h1,
+.description {
+  letter-spacing: 0.05rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.444rem;
+  font-weight: 400;
+}
+
+.price-days-wrapper,
+.creator-wrapper {
+  font-size: 0.833rem;
+}
+
+.price-days-wrapper {
+  justify-content: space-between;
+}
+
+.price,
+.card-wrapper h1 {
+  font-weight: 600;
+}
+
+.creator-wrapper {
+  margin-top: 1rem;
+}
+
+.ethereum,
+.clock,
+.price p,
+.days p {
+  display: inline-block;
+}
+
+.ethereum,
+.clock {
+  margin-right: 0.3rem;
+}
+
+.avatar {
+  width: 1.833rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 0.8rem;
 }
 
 .white {
@@ -30,6 +116,5 @@ body {
 }
 
 .line {
-  width: 100%;
   border: 1px solid hsl(215, 32%, 27%);
 }
